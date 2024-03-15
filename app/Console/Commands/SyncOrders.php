@@ -30,7 +30,6 @@ class SyncOrders extends Command
         parent::__construct();
         $this->syncOrder = $syncOrder;
     }
-    use AsAction;
     /**
      * Execute the console command.
      */
